@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Poppins:wght@500&family=Roboto&display=swap");
+
+.header {
+  display: grid;
+  grid-template-columns: 300px, auto;
+  grid-template-rows: 1fr;
+
+  width: 100%;
+  height: 96px;
+  background-color: black;
+  /* margin-bottom: 1px; */
+}
+
+.logo {
+  padding-left: 230px;
+  grid-column: 1 / span 1;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  grid-column: 2 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navigation-item {
+  color: white;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navigation-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ffbb00;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    overflow-x: visible;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: auto, auto;
+  }
+
+  .logo {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

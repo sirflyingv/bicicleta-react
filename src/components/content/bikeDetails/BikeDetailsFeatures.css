@@ -1,0 +1,25 @@
+.bike--features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 40px;
+  padding-bottom: 14px;
+}
+
+.feature {
+  display: flex;
+}
+
+.feature > img {
+  padding-right: 12px;
+}
+
+.feature > p {
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #595959;
+}

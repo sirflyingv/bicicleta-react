@@ -1,0 +1,82 @@
+footer {
+  background-color: rgb(0, 0, 0);
+  /* height: 420px; */
+  text-align: left;
+  font-family: "Roboto";
+}
+
+.footer--main {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-left: 230px;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+.footer--h3 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer--main > .logo {
+  align-self: flex-start;
+}
+
+.footer--main > .contato {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  gap: 16px;
+  /* width: 400px;
+    min-width: 232px; */
+}
+
+.footer--main > .contato > p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #b3b3b3;
+}
+
+.social-media {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30px;
+}
+
+.footer--main > .informacoes > ul {
+  text-align: left;
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #b3b3b3;
+}
+
+.footer--main > .informacoes > ul > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copyright {
+  padding-left: 160px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #9c9c9c;
+}
